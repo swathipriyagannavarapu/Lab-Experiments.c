@@ -1,1 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+float t,i,n,p,c;
+printf("\n Enter principle amount:");
+scanf("%f",&t);
+printf("\n Enter duration time:");
+scanf("%f",&n);
+printf("\n Enter rate of interest:");
+scanf("%f",&i);
+p=t*(pow((1+i/100),n));
+c=p-t;
+printf("\n The compound interest is :%f",c);
+}
 
