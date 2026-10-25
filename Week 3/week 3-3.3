@@ -1,1 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+float a,b,c,A,s;
+printf("\n Enter side a in cm:");
+scanf("%f",&a);
+printf("\n Enter side b in cm:");
+scanf("%f",&b);
+printf("\n Enter side c in cm:");
+scanf("%f",&c);
+s=a+b+c/2;
+A=sqrt(s*(s-a)*(s-b)*(s-c));
+printf("\n Area of triangle %f cm square",A);
+}
 
