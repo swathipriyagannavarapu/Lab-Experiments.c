@@ -1,1 +1,18 @@
+#include<stdio.h>
+void main()
+{
+int u;
+float cb;
+printf("\n Enter number of units consumed:");
+scanf("%d",&u);
+if(u<=50)
+ cb=u*0.50;
+else if(u<=100)
+cb=u*1.50;
+else if(u<=200)
+cb=u*2.5;
+else
+cb=u*6.0;
+printf("\n The current bill is %f",cb);
+}
 
