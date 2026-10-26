@@ -1,1 +1,22 @@
-
+  #include<stdio.h>
+#include<math.h>
+void main()
+{
+float a,b,c,r1,r2,d;
+printf("\n Enter a,b,c values in a quadratic equation");
+scanf("%f%f%f",&a,&b,&c);
+d=pow(b,2)-4*a*c;
+if(d>0)
+{
+ r1=(-b+sqrt(d))/(2*a);
+ r2=(-b-sqrt(d))/(2*a);
+ printf("\n The roots of the equation %.2f and  %.2f",r1,r2);
+}
+else if(d==0)
+{
+    r1=-b/2*a;
+printf("\n The equal roots and the root of the quadratic equation %.2f",r1);
+}
+else
+printf("Roots are imaginary");
+}
