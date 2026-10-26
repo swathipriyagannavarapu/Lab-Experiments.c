@@ -1,1 +1,50 @@
+  #include<stdio.h>
+void main()
+{
+    int a,b,c,d;
+    printf("Enter any four numbers:");
+    scanf("%d%d%d%d",&a,&b,&c,&d);
+    if(a>b)
+    {
+       if(a>c)
+       {
+           if(a>d)
+           
+               printf("\n %d is the biggest number",a);
+           
+           else
+           printf("\n %d is the biggest number",d);
+       }
+           else
+           {
+               if(c>d)
+               printf("\n %d is the biggest number",c);
+               else
+               printf("\n %d is the biggest number",d);
+           }
+    }
+           else
+           {
+             if(b>c)
+             {
+                 if(b>d)
+                 printf("\n %d is the biggest number",b);
+                 else
+                 printf("\n %d is the biggest number",d);
+             }
+                 else
+                 {
+                     if(c>d)
+                     printf("\n %d is the biggest number",c);
+                     else
+                     printf("/n %d is the biggest number",d);
+                 }
+                 
+             
+              
+           }
+       
+    
+    
+}
 
